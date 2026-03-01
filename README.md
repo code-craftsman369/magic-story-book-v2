@@ -5,7 +5,7 @@
 > *I wanted to give my kids something no store could sell: a story made just for them.*  
 > That idea became a system. This is Magic Story Book v2.
 
-🌐 Live Demo: https://magic-story-v2-code-craftsman369.streamlit.app/
+🌐 Live Demo: https://magic-story-book-v2-code-craftsman369.streamlit.app/
 
 ---
 
