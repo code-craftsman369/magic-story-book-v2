@@ -2,8 +2,7 @@
 
 **AI-Powered Personalized Bilingual Picture Books — Made by a Dad, Built for Every Child**
 
-> *I wanted to give my kids something no store could sell: a story made just for them.*  
-> That idea became a system. This is Magic Story Book v2.
+> **In under 5 minutes, generate a fully illustrated, bilingual picture book — personalized for your child, ready to print.**
 
 🌐 Live Demo: https://magic-story-book-v2-code-craftsman369.streamlit.app/
 
@@ -11,13 +10,11 @@
 
 ## 🧡 Why This Exists
 
-My daughter is 9. My son is 7. Like most working parents, I struggled to find bedtime stories that felt truly *theirs* — with their name, their interests, their world.
+My daughter is 9. My son is 7. I wanted bedtime stories that felt truly *theirs* — with their name, their world, their adventure. I also wanted them to grow up comfortable in English, but textbooks never stuck.
 
-I also wanted them to grow up comfortable in English, but flashcards and textbooks never stuck. What if the learning material was a story they actually cared about?
+So I built the tool I wished existed.
 
-So I built it.
-
-Magic Story Book v2 generates personalized, bilingual picture books in minutes — complete with illustrations, bilingual text (Japanese + English), and a print-ready PDF. It started as a gift for my kids. It's now designed to be a product for any parent who feels the same way.
+Magic Story Book v2 generates personalized, bilingual picture books in minutes — illustrated, print-ready, and built around your child. What started as a gift for my kids is now designed as a product for every parent who feels the same way.
 
 ---
 
@@ -55,7 +52,7 @@ Magic Story Book v2 generates personalized, bilingual picture books in minutes �
 
 ## 🔄 How It Works
 
-The generation pipeline runs in four structured stages — ensuring story coherence, character consistency, and output quality:
+This is not a demo wrapper around a single prompt. The generation pipeline runs in four structured stages — ensuring story coherence, character consistency, and output quality:
 
 ```
 User Input (name, age, theme, tone, pages)
