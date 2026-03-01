@@ -46,7 +46,7 @@ def generate_image(prompt: str) -> bytes | None:
                 "steps": 30,
                 "style_preset": "anime",
             },
-            timeout=60,
+            timeout=120,
         )
 
         if response.status_code == 200:
