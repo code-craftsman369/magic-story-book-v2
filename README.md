@@ -164,4 +164,4 @@ This project is part of an active portfolio of AI-powered applications built for
 
 ---
 
-*Built with care — for two kids in Fukui, and every child after them.*
+*Built with care — for two kids in Japan, and every child after them.*
