@@ -11,6 +11,7 @@ import streamlit as st
 from ui.form import render_form
 from story.pipeline import run_pipeline
 from story.prompt_builder import generate_image, image_to_b64
+from output.pdf_builder import build_pdf
 
 # ─────────────────────────────────────────────
 #  ページ設定
@@ -248,6 +249,20 @@ elif st.session_state.v2_page == "reading":
 
         st.markdown('</div>', unsafe_allow_html=True)
 
+    # PDFダウンロードボタン
+    if st.session_state.v2_pages:
+        pdf_bytes = build_pdf(
+            config,
+            st.session_state.v2_pages,
+            st.session_state.v2_img_b64
+        )
+        st.download_button(
+            label="📥 PDFとしてダウンロード",
+            data=pdf_bytes,
+            file_name=f"{config['title']}.pdf",
+            mime="application/pdf",
+            key="pdf_download"
+        )
     c1, c2 = st.columns(2)
     with c1:
         if current > 1:
