@@ -10,7 +10,7 @@
 
 ## 🧡 Why This Exists
 
-My daughter is 9. My son is 7. I wanted bedtime stories that felt truly *theirs* — with their name, their world, their adventure. I also wanted them to grow up comfortable in English, but textbooks never stuck.
+I have two kids. I wanted bedtime stories that felt truly *theirs* — with their name, their world, their adventure. I also wanted them to grow up comfortable in English, but textbooks never stuck.
 
 So I built the tool I wished existed.
 
@@ -161,4 +161,4 @@ This project is part of an active portfolio of AI-powered applications built for
 
 ---
 
-*Built with care — for two kids in Fukui, and every child after them.*
+*Built with care — for two kids in Japan, and every child after them.*
